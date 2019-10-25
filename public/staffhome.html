@@ -1,12 +1,137 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Staff Home</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+    </script>
+    <link rel="stylesheet" href="public\loginbg.css">
+    <title>Leave Management System</title>
+
 </head>
+
 <body>
-    
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-secondary m-md-0">
+        <a class="navbar-brand" href="#">Home</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
+            aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Apply for Leave<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">View my applications</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Blog</a>
+                </li>
+            </ul>
+
+        </div>
+    </nav>
+    </header>
+   <div class="container-fluid">
+       <div class="row no-gutter">
+           <!-- The image half -->
+           <div class="col-md-3 d-none d-md-flex bg-image">
+
+               <div class="my m-md-auto" style="width: 200px;">
+
+                   <p class="text-capitalize text-info">
+                       <span class="border border-info"></span>
+                       <h2>
+                           Welcome!
+                       </h2>
+                       </span>
+                   </p>
+                   <p class="text-black-50"></p>
+
+               </div>
+           </div>
+
+
+           <!-- The content half -->
+           <div class="col-md-9 bg-light">
+               <div class="login d-flex align-items-center py-5">
+
+                   <div class="container">
+                       <div class="row">
+                           <div class="col-lg-10 col-xl-7 mx-auto">
+                               <h6 class="display-4">
+                                   <center>Leave Management System</center>
+                               </h6>
+                               <p class="text-md-left mb-4">
+                                   <center>Please login to continue</center>
+                               </p>
+                              
+                           </div>
+                       </div>
+                   </div><!-- End -->
+
+               </div>
+           </div><!-- End -->
+
+       </div>
+   </div>
+<!-- Modal -->
+<div class="modal" id="addRequest" tabindex="-1" role="dialog" aria-labelledby="myModal">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <form id="addRequest">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                            aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="addRequest">Add Request</h4>
+                </div>
+                <div class="modal-body">
+                    <form class="addRequest" action="" method="POST">
+                        <label>
+                            Name<input type="text" id="name" class="form-control mb-4" placeholder="Name">
+                        </label>
+                        <label>
+                            Email <input type="email" id="email" class="form-control mb-4" placeholder="E-mail">
+                        </label>
+                        <label>
+                            Staff Id<input type="text" id="staffId" class="form-control mb-4" placeholder="Staff ID">
+                        </label>
+                        <label>
+                            Start Date<input type="date" id="startDate" class="form-control mb-4"
+                                placeholder="Start Date">
+                        </label>
+                        <label>
+                            Duration<input type="number" id="duration" class="form-control mb-4" placeholder="duration">
+                        </label>
+                        <!-- Subject -->
+                        <label>Reason
+                            <select class="browser-default custom-select mb-4">
+                                <option value="" disabled>Choose option</option>
+                                <option value="1" selected>Annual Leave</option>
+                                <option value="2">Sick Leave</option>
+                                <option value="3">Maternity Leave</option>
+                                <option value="4">Casual Leave</option>
+                            </select>
+                        </label>
+                        <div class="form-group">
+                            <textarea class="form-control rounded-0" id="additionalinfo" rows="3"
+                                placeholder="Message"></textarea>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-primary" id="submit-butn" action="">Submit</button>
+                        </div>
+                    </form>
+                </div>
+        </div>
+    </div>
+   
 </body>
+
 </html>
