@@ -82,17 +82,7 @@
     }
   ],
   "leaves": [
-    {
-      "id": 1,
-      "staffId": "am003",
-      "fullName": "Ahmed Khalid",
-      "email": "ahmedkhalid@amazemedia.com",
-      "dept": "Creatives",
-      "leaveType": "Annual Leave",
-      "startDate": "Nov 01, 2019",
-      "duration": "10 days",
-      "status": "Aprroved"
-    },
+    
     {
       "type": "select leave type",
       "reason": "",
@@ -100,21 +90,21 @@
       "endDate": "2019-10-02",
       "userID": "",
       "status": "Not Approve",
-      "id": 2
+      "id": 1
     },
     {
       "type": "Annual leave",
       "startDate": "",
       "userID": "",
       "status": "Not Approve",
-      "id": 3
+      "id": 2
     },
     {
       "type": "Maternity/Paternity",
       "startDate": "2019-10-31",
       "userID": "",
       "status": "Not Approve",
-      "id": 4
+      "id": 3
     }
   ]
 }

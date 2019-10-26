@@ -4,6 +4,7 @@ $(document).ready(function () {
   // console.log(id)
 
   //get item from database
+  var userId = localStorage.data("user")
   $.ajax({
     method: 'GET',
     url: "http://localhost:3000/leaves",
