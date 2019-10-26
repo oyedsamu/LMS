@@ -1,92 +1,120 @@
 {
-    "staffs": [
-        {
-            "id": 1,
-            "staffId": "am1",
-            "fullName": "Oyedele Samuel",
-            "email": "oyedelesamuel@amazemedia.com",
-            "password": "2019calculated",
-            "dept": "Management"
-        },
-        {
-            "id": 2,
-            "staffId": "am2",
-            "fullName": "Isaac Babanla",
-            "email": "IsaacBabanla@amazemedia.com",
-            "password": "boboMESS",
-            "dept": "Marketing"
-        },
-        {
-            "id": 3,
-            "staffId": "am3",
-            "fullName": "Ahmed Khalid",
-            "email": "ahmedkhalid@amazemedia.com",
-            "password": "penkele21",
-            "dept": "Creatives"
-        },
-        {
-            "id": 4,
-            "staffId": "am4",
-            "fullName": "Kemisola Gbemileke",
-            "email": "kemisolagbemileke@amazemedia.com",
-            "password": "mylifeisgooglex",
-            "dept": "Creatives"
-        },
-        {
-            "id": 5,
-            "staffId": "am5",
-            "fullName": "Christian Nwachuku",
-            "email": "christiannwachuku@amazemedia.com",
-            "password": "chinekeOmenma",
-            "dept": "Marketing"
-        },
-        {
-            "id": 6,
-            "staffId": "am6",
-            "fullName": "Ajibola Oluwaseun",
-            "email": "ajibolaoluwaseun@amazemedia.com",
-            "password": "qwertyuiop1234",
-            "dept": "Creatives"
-        },
-        {
-            "id": 7,
-            "staffId": "am7",
-            "fullName": "Michael Okaka",
-            "email": "michaelokaka@amazemedia.com",
-            "password": "decagonated007",
-            "dept": "Creatives"
-        },
-        {
-            "id": 8,
-            "staffId": "am8",
-            "fullName": "Frank Elewe",
-            "email": "frankelewe@amazemedia.com",
-            "password": "poiuytrewq0987",
-            "dept": "Creatives"
-        },
-        {
-            "id": 9,
-            "staffId": "am9",
-            "fullName": "Richard Kabiesi",
-            "email": "richardkabiesi@amazemedia.com",
-            "password": "peledawopele123",
-            "dept": "Creatives"
-        }
-    ],
-    "leaves": [
-        {
-            "id": 1,
-            "staffId": "am3",
-            "fullName":"Ahmed Khalid",
-            "leaveType": "Annual Leave",
-            "email": "ahmedkhalid@amazemedia.com",
-            "phoneNo": "+2348134097849",
-            "dept":"Creatives",
-            "startDate": "Nov 01, 2019",
-            "duration": "10 days",
-            "status": "Aprroved"
-
-        }
-    ]
-    
+  "staffs": [
+    {
+      "id": 1,
+      "staffId": "am001",
+      "fullName": "Oyedele Samuel",
+      "email": "oyedelesamuel@amazemedia.com",
+      "password": "2019calculated",
+      "dept": "Management"
+    },
+    {
+      "id": 2,
+      "staffId": "am002",
+      "fullName": "Isaac Babanla",
+      "email": "IsaacBabanla@amazemedia.com",
+      "password": "boboMESS",
+      "dept": "Marketing"
+    },
+    {
+      "id": 3,
+      "staffId": "am003",
+      "fullName": "Ahmed Khalid",
+      "email": "ahmedkhalid@amazemedia.com",
+      "password": "penkele21",
+      "dept": "Creatives"
+    },
+    {
+      "id": 4,
+      "staffId": "am004",
+      "fullName": "Kemisola Gbemileke",
+      "email": "kemisolagbemileke@amazemedia.com",
+      "password": "mylifeisgooglex",
+      "dept": "Creatives"
+    },
+    {
+      "id": 5,
+      "staffId": "am005",
+      "fullName": "Christian Nwachuku",
+      "email": "christiannwachuku@amazemedia.com",
+      "password": "chinekeOmenma",
+      "dept": "Marketing"
+    },
+    {
+      "id": 6,
+      "staffId": "am006",
+      "fullName": "Ajibola Oluwaseun",
+      "email": "ajibolaoluwaseun@amazemedia.com",
+      "password": "qwertyuiop1234",
+      "dept": "Creatives"
+    },
+    {
+      "id": 7,
+      "staffId": "am007",
+      "fullName": "Michael Okaka",
+      "email": "michaelokaka@amazemedia.com",
+      "password": "decagonated007",
+      "dept": "Creatives"
+    },
+    {
+      "id": 8,
+      "staffId": "am008",
+      "fullName": "Frank Elewe",
+      "email": "frankelewe@amazemedia.com",
+      "password": "poiuytrewq0987",
+      "dept": "Creatives"
+    },
+    {
+      "id": 9,
+      "staffId": "am009",
+      "fullName": "Richard Kabiesi",
+      "email": "richardkabiesi@amazemedia.com",
+      "password": "peledawopele123",
+      "dept": "Creatives"
+    },
+    {
+      "id": 10,
+      "staffId": "am010",
+      "fullName": "Human Resources Manager",
+      "email": "hr@amazemedia.com",
+      "password": "makinglifebetter1990",
+      "dept": "HR"
+    }
+  ],
+  "leaves": [
+    {
+      "id": 1,
+      "staffId": "am003",
+      "fullName": "Ahmed Khalid",
+      "email": "ahmedkhalid@amazemedia.com",
+      "dept": "Creatives",
+      "leaveType": "Annual Leave",
+      "startDate": "Nov 01, 2019",
+      "duration": "10 days",
+      "status": "Aprroved"
+    },
+    {
+      "type": "select leave type",
+      "reason": "",
+      "startDate": "2019-10-17",
+      "endDate": "2019-10-02",
+      "userID": "",
+      "status": "Not Approve",
+      "id": 2
+    },
+    {
+      "type": "Annual leave",
+      "startDate": "",
+      "userID": "",
+      "status": "Not Approve",
+      "id": 3
+    },
+    {
+      "type": "Maternity/Paternity",
+      "startDate": "2019-10-31",
+      "userID": "",
+      "status": "Not Approve",
+      "id": 4
+    }
+  ]
 }

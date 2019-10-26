@@ -2,118 +2,103 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
-    </script>
-    <link rel="stylesheet" href="public\loginbg.css">
-    <title>Leave Management System</title>
-
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+    integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-secondary m-md-0">
-        <a class="navbar-brand" href="#">Home</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
-            aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarCollapse">
-            <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">Nothing<span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Sign In</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Blog</a>
-                </li>
-            </ul>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">AMLMS</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
 
-        </div>
-    </nav>
-    </header>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+        </li>
+      </ul>
+      <div class="form-inline">
+        <div class="login mr-5"><a href="index.html"><i class="fas fa-sign-in-alt"></i> LOGIN</a></div>
+      </div>
 
-    <div class="container-fluid">
-        <div class="row no-gutter">
-            <!-- The image half -->
-            <div class="col-md-3 d-none d-md-flex bg-image">
+    </div>
+  </nav>
+<div class="container-fluid">
+  <div class="row no-gutter">
+    <!-- The image half -->
+    <div class="col-md-3 d-none d-md-flex bg-image">
 
-                <div class="my m-md-auto" style="width: 200px;">
-                    
-                        <p class="text-primary">
-                            <span class="border border-info"></span>
-                            <h2>
-                                Welcome to <br> Amaze Media Leave Management System.
-                            </h2>
-                            </span>
-                        </p>
+      <div class="my m-md-auto" style="width: 200px;">
 
-                </div>
-            </div>
+        <p class="text-primary">
+          <span class="border border-info"></span>
+          <h2>
+            Welcome to <br> Amaze Media Leave Management System.
+          </h2>
+          </span>
+        </p>
 
-
-            <!-- The content half -->
-            <div class="col-md-9 bg-light">
-                <div class="login d-flex align-items-center py-5">
-
-                    <!-- Demo content-->
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-lg-10 col-xl-7 mx-auto">
-                                <h3 class="display-4">
-                                    <center>Leave Management System</center>
-                                </h3>
-                                <p class="text-muted mb-4">
-                                    <center>Please login to continue</center>
-                                </p>
-                                <form>
-                                    <div class="form-group mb-3">
-                                        <input id="inputEmail" type="email" placeholder="Email address" required=""
-                                            autofocus="" class="form-control rounded-pill border-0 shadow-sm px-4">
-                                    </div>
-                                    <div class="form-group mb-3">
-                                        <input id="inputPassword" type="password" placeholder="Password" required=""
-                                            class="form-control rounded-pill border-0 shadow-sm px-4 text-primary">
-                                    </div>
-                                    <div class="form-check">
-                                        <input class="form-check-input" type="radio" name="exampleRadios"
-                                            id="exampleRadios1" value="staff" checked>
-                                        <label class="form-check-label" for="exampleRadios1">
-                                            Staff
-                                        </label>
-                                    </div>
-                                    <div class="form-check">
-                                        <input class="form-check-input" type="radio" name="exampleRadios"
-                                            id="exampleRadios2" value="admin">
-                                        <label class="form-check-label" for="exampleRadios2">
-                                            Admin
-                                        </label>
-                                    </div>
-
-                                    <br>
-                                    <button type="submit" id="submit"
-                                        class="btn btn-primary btn-block text-uppercase mb-2 rounded-pill shadow-sm">Sign
-                                        in</button>
-                                    <div class="text-center d-flex justify-content-between mt-4">
-                                        <p>© AMAZE MEDIA HR DEPT</p>
-                                    </div>
-                                </form>
-                            </div>
-                        </div>
-                    </div><!-- End -->
-
-                </div>
-            </div><!-- End -->
-
-        </div>
+      </div>
     </div>
 
+
+    <!-- The content half -->
+    <div class="col-md-9 bg-light">
+      <div class="login d-flex align-items-center py-5">
+
+        <!-- Demo content-->
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-10 col-xl-7 mx-auto">
+              <h3 class="display-4">
+                <center>Leave Management System</center>
+              </h3>
+              <p class="text-muted mb-4">
+                <center>Please login to continue</center>
+              </p>
+              <form>
+                <div class="form-group mb-3">
+                  <input id="inputEmail" type="email" placeholder="Email address" required="" autofocus=""
+                    class="form-control rounded-pill border-0 shadow-sm px-4">
+                </div>
+                <div class="form-group mb-3">
+                  <input id="inputPassword" type="password" placeholder="Password" required=""
+                    class="form-control rounded-pill border-0 shadow-sm px-4 text-primary">
+
+                  <br>
+                  <button type="submit" id="submit"
+                    class="btn btn-primary btn-block text-uppercase mb-2 rounded-pill shadow-sm">Sign
+                    in</button>
+                  <div class="text-center d-flex justify-content-between mt-4">
+                    <p>Â© AMAZE MEDIA HR DEPT</p>
+                    <br>
+                    <p class="mt-3 text-center" id="message"> </p>
+                  </div>
+              </form>
+            </div>
+          </div>
+        </div><!-- End -->
+
+      </div>
+  </div>
+
+  </div>
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+  <script src="./js/login.js"></script>
 </body>
 
 </html>
